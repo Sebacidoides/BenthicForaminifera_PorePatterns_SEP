@@ -1,0 +1,33 @@
+//Pore measurement
+// open folder to select image
+macro "Pore measurement 2560x1920 - Whole Test Seb x100" {
+//open();
+//Set the scale
+run("Set Scale...", "distance=1010 known=500 pixel=1 unit=um");
+title1 = "Set scale";
+msg1 = "adjust the scale if necessary and click OK in this window";
+waitForUser(title1, msg1);
+//convert image to grey scale values if not already done
+run("8-bit");
+//select the whole shell - 
+setTool("wand");
+run("Wand Tool...","tolerance=120 mode=Legacy");
+title1 = "Sélection foram total";
+msg1 = "Outil \"WAND\" sélectionné.\n1. Cliquer sur une suture centrale.\n2. Régler la sensibilité si besoin en double cliquant sur l'outil \"WAND\".\n3. Cliquer sur OK";
+waitForUser(title1, msg1);
+
+run("Crop");
+//adjusting the threshold
+run("Threshold...");
+title = "threshold";
+msg = "adjust the threshold if necessary and click OK in this window";
+waitForUser(title, msg);
+getThreshold(lower, upper);
+if (lower==-1)
+exit("Threshold was not set");
+run("Convert to Mask");
+//remove dust/ small particles
+run("Remove Outliers...","radius=2 threshold=50 which=Dark");
+run("Set Measurements...","area perimeter shape");
+run("Analyze Particles...", " size=0-Infinity circularity=0.00-1.00 redirect=None decimal=2 show=Outlines display clear summarize");
+}

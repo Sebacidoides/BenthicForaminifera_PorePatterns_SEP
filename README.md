@@ -43,7 +43,7 @@ Affiliations:
 ## Research's Data and Methods
 
 ### Regional Setting and Samples
-- The SEP features significant vertical, latitudinal, and longitudinal gradients in hydrological parameters (Silva et al., 2009, Paulmier and Ruiz-Pino, 2009).
+- The Southeast Pacific (SEP) features significant vertical, latitudinal, and longitudinal gradients in hydrological parameters (Silva et al., 2009, Paulmier and Ruiz-Pino, 2009).
 - Our samples were collected from the Southeast Pacific between 12°S and 44°S along the continental margin of Chile and Peru, at depths ranging from 24 to 3,252 m.
 - Sampling methods included Multicorer, box-corer, Petersen grab, and gravity core through the cruises (SONNE 156, SONNE 211, SONNE 161, Meteor 92, USNS Eltanin, BIAC072014)
 
@@ -108,46 +108,39 @@ The repository is organized into the following folders:
 
 ## Usage
 
-### ImageJ Macros
+### ImageJ Macros to measure pore patterns 
 
-1. **Measure Pore Patterns**:
-    - Open ImageJ and load the images of benthic foraminifera specimens.
-    - Use the provided Java macros to measure pore patterns on the images. You can load the macros by navigating to `Plugins > Macros > Run...` and selecting the appropriate `.ijm` file from the `ImageJ-Scripts` folder.
+1. **Open ImageJ**.
+2. **Load the image** of the benthic foraminifera specimen you want to measure.
+3. **What kind of measurement are you performing now?** This is important because you need to decide whether you will use the macros for penultimate and antepenultimate chambers (PAC) or for the entire spiral or umbilical side.
+4. **Use the provided Java macros** to measure pore patterns on the images. You can load the macros by navigating to `Plugins > Macros > Run...` and selecting the appropriate `.ijm` file from the `ImageJ-Scripts` folder.
+      - If you are performing PAC measurements, add the appropriate macro. Use `PoresSEP_75x50_x400.ijm` to measure the penultimate and antepenultimate chambers (PAC).
+      - If you are measuring umbilical or spiral side measurements (all chambers included), check the magnification in the bottom left corner (60x, 80x, 100x, 120x, 150x, 180x, 200x, 250x, 300x). Use the other macros (`PoresSEP_x60.ijm`, `PoresSEP_x80.ijm`, etc.) to measure the entire umbilical and spiral sides at the specified magnifications.
 
-2. **Select the Appropriate Macro**:
-    - Use `PoresSEP_75x50_x400.ijm` for measuring the penultimate and antepenultimate chambers (PAC).
-    - Use the other macros (`PoresSEP_x60.ijm`, `PoresSEP_x80.ijm`, etc.) for measuring the entire umbilical and spiral sides at the specified magnifications.
-  
 ### Data Analysis
 
 1. **Run the Analysis Script**:
-    - Navigate to the `DataAnalysis` folder.
-    - Run the `PorePatternsSEP-Script.py` script to perform the statistical analysis and generate visualizations of pore patterns.
-
-    ```sh
-    python PorePatternsSEP-Script.py
-    ```
-
+      - Navigate to the `DataAnalysis` folder.
+      - Run the `PorePatternsSEP-Script.py` script to perform the statistical analysis and generate visualizations of pore patterns.
 2. **Input Data**:
-    - The script uses the `Dataset Pore Measurements Garrido et al..csv` file as input. Ensure this file is in the same directory as the script.
-
+      - The script uses the `Dataset Pore Measurements Garrido et al..csv` file as input. Ensure this file is in the same directory as the script.
 3. **Output**:
-    - The script will generate statistical summaries and visualizations which will be saved in the `DataAnalysis` folder.
-
+      - We recommend an environment similar to the one in `PorePatternsSEP-ScriptFiles.zip`. This folder also contains the Python script (`PorePatternsSEP-Script.py`). Moreover, you can find the same dataset (`Dataset Pore Measurements Garrido et al..csv`) in the folder `Datasets`. In that folder (`Datasets`), you can find two folders `Created datasets` and `Created Figures`, where the code will create secondary datasets and figures from the main analysis. Ensure the directories match in the Python code. 
 
 
 ## Acknowledgements
 
-We thank the crews and scientific teams of the research expeditions PG4, M92, SONNE 156, SONNE 161, and SONNE 211 expeditions, and the GeoB Core Repository at MARUM, University of Bremen (special thanks to Jürgen Titschack).
+- We thank the crews and scientific teams of the research expeditions PG4, M92, SONNE 156, SONNE 161, and SONNE 211 expeditions, and the GeoB Core Repository at MARUM, University of Bremen (special thanks to Jürgen Titschack).
+- We thank the teams at the Université d'Angers (Frans Jorissen, Marie Fouet, Christine Barras, Sophie Sanchez, Eleonora Fossile), Heriot-Watt University (Lilja Alam, Sarah Collet), and the British Geological Survey (Melanie Leng, Kotryna Savickaite). 
+- We also thank Laura Farias for the regional CTDO data (BIOSPE, FIP_2006, Galathea, Jamstec, and Samfloc).
+- Sebastián Garrido acknowledges funding from the ANID Scholarship Program DOCTORADO BECAS CHILE 2019 / 72200463. 
+- This study was supported by the FARGO project (MR/S034293/1 to BH) and ANID Millennium Science Initiative Program NCN19_153.
 
-We thank the teams at the Université d'Angers (Frans Jorissen, Marie Fouet, Christine Barras, Sophie Sanchez, Eleonora Fossile), Heriot-Watt University (Lilja Alam, Sarah Collet), and the British Geological Survey (Melanie Leng, Kotryna Savickaite). 
+## References
 
-We also thank Laura Farias for the regional CTDO data (BIOSPE, FIP_2006, Galathea, Jamstec, and Samfloc).
+Paulmier, A., Ruiz-Pino, D., 2009. Oxygen minimum zones (OMZs) in the modern ocean. Prog Oceanogr 80. https://doi.org/10.1016/j.pocean.2008.08.001
 
-Sebastián Garrido acknowledges funding from the ANID Scholarship Program DOCTORADO BECAS CHILE 2019 / 72200463. 
-
-This study was supported by the FARGO project (MR/S034293/1 to BH) and ANID Millennium Science Initiative Program NCN19_153.
-
+Silva, N., Rojas, N., Fedele, A., 2009. Water masses in the Humboldt Current System: Properties, distribution, and the nitrate deficit as a chemical water mass tracer for Equatorial Subsurface Water off Chile. Deep Sea Research Part II: Topical Studies in Oceanography 56, 1004–1020. https://doi.org/10.1016/j.dsr2.2008.12.013
 
 ## Contact
 

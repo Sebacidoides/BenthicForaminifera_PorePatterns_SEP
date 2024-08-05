@@ -133,8 +133,8 @@ The repository is organized into the following folders:
  
       - **Location Data**: Site, Latitude, Longitude, Water depth
       - **Foraminifera Collection**: Sample, Image, Cruise, Year
-      - **Porosity Measurements**: Average porosity, Std deviation, Threshold, Average number of pores, Std deviation of pore number, Average pore diameter, Std deviation of pore diameter, Average test area, Std deviation of test area
-      - **Specimen Measurements**: Size, Std deviation of size, Average pore density, Std deviation of pore density
+      - **Porosity Measurements**: Average porosity, Std deviation, Threshold, Average number of pores, Std deviation of pore number, Average pore diameter, Std deviation of pore diameter, Average pore density, Std deviation of pore density
+      - **Specimen Measurements**: Size, Std deviation of size, Average test area, Std deviation of test area
       - **Specimen Details**: Side, Chamber, SpecimenID, Morphotype (for C. wuellerstorfi), Species, Preservation status, Missing chambers (ventral/dorsal), Chambers in last whorl, Image pixel size, Image magnification, Staining status
       - **Sediment Details**: Fraction, <sup>14</sup>C age, Error, Organic carbon, Carbonate content, Opal content, C/N ratio, Granulometry (mean, median, mode, StdDev, skewness, kurtosis, %Clay, %Silt, %Sand)
       - **Bottom Water Environmental Parameters**: Oxygen, Temperature, Salinity, pH, Carbonate content, δ¹³C of DIC, Nitrate, Phosphate, Silica, Chlorophyll content, Primary productivity, El Niño/La Niña, PDO indices

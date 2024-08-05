@@ -1,26 +1,33 @@
 # Benthic Foraminifera Pore Patterns in the Southeast Pacific
+#### A repository of "A species-specific approach to benthic foraminifera pore patterns as a paleoxygenation proxy in the Southeast Pacific"
 
 ## Overview
 
-This repository contains data and scripts related to the study "A species-specific approach to benthic foraminifera pore patterns as a paleoxygenation proxy in the Southeast Pacific" by Sebastián Garrido et al. The research focuses on the use of pore patterns in benthic foraminifera as proxies for past bottom water dissolved oxygen (BWDO) levels, providing insights into historical ocean oxygenation conditions.
+This repository contains data and scripts related to the article "A species-specific approach to benthic foraminifera pore patterns as a paleoxygenation proxy in the Southeast Pacific" by Sebastián Garrido et al. (in review). The research focuses on the use of pore patterns in benthic foraminifera as proxies for past bottom water dissolved oxygen (BWDO) levels in the Southeast Pacifi (SEP), providing insights into changes in ocean oxygenation conditions over the geological past.
 
 ## Repository Structure
 
 The repository is organized into the following folders:
 
-- **DataAnalysis**: Contains scripts and datasets used for statistical analysis and proxy calibration.
+- **ImageJ-Scripts**: Contains Java macros for measuring pore patterns using ImageJ software.
+  - `PoresSEP_75x50_x400.ijm`: Macro for measuring penultimate and antepenultimate chambers (PAC).
+  - `PoresSEP_x60.ijm`, `PoresSEP_x80.ijm`, `PoresSEP_x100.ijm`, `PoresSEP_x120.ijm`, `PoresSEP_x150.ijm`, `PoresSEP_x180.ijm`, `PoresSEP_x200.ijm`, `PoresSEP_x250.ijm`, `PoresSEP_x300.ijm`: Macros for measuring the entire umbilical and spiral sides at various magnifications (For more detail about this, see Appendix A of this article).
+
+- **DataAnalysis**: Contains scripts and datasets used for statistical analysis of pore measurements and proxy calibration.
   - `PorePatternsSEP-Script.py`: Python script using numpy, pandas, matplotlib, statmodels, seaborn, and sklearn packages to perform Weighted Least Squares (WLS) regression and analyze pore patterns. This script includes functions for data cleaning, statistical analysis, and visualization.
   - `Dataset Pore Measurements Garrido et al..csv`: Dataset with pore measurements used as input for the analysis. This includes measurements of porosity, pore density, and pore size for various benthic foraminiferal species.
 
-- **ImageJ-Scripts**: Contains Java macros for measuring pore patterns using ImageJ software.
-  - `PoresSEP_75x50_x400.ijm`: Macro for measuring penultimate and antepenultimate chambers (PAC).
-  - `PoresSEP_x60.ijm`, `PoresSEP_x80.ijm`, `PoresSEP_x100.ijm`, `PoresSEP_x120.ijm`, `PoresSEP_x150.ijm`, `PoresSEP_x180.ijm`, `PoresSEP_x200.ijm`, `PoresSEP_x250.ijm`, `PoresSEP_x300.ijm`: Macros for measuring the entire umbilical and spiral sides at various magnifications.
-
-## Requirements
+## Requirements.
 
 To run the scripts and use the macros provided in this repository, you will need the following software and packages installed:
 
-### Python Environment
+### ImageJ Environment (For ImageJ-Scripts).
+
+1. **ImageJ**: Download and install ImageJ from [imagej.net](https://imagej.net/software/imagej/).
+
+2. **Java**: Ensure you have Java installed, as ImageJ requires Java to run. You can download it from [java.com](https://www.java.com/).
+  
+### Python Environment (For DataAnalysis).
 
 1. **Python**: Ensure you have Python 3.7 or later installed. You can download it from [python.org](https://www.python.org/).
 
@@ -30,11 +37,7 @@ To run the scripts and use the macros provided in this repository, you will need
     pip install numpy pandas matplotlib statsmodels seaborn scikit-learn
     ```
 
-### ImageJ Environment
 
-1. **ImageJ**: Download and install ImageJ from [imagej.net](https://imagej.net/software/imagej/).
-
-2. **Java**: Ensure you have Java installed, as ImageJ requires Java to run. You can download it from [java.com](https://www.java.com/).
 
 ## Usage
 

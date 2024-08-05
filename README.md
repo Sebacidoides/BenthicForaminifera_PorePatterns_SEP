@@ -28,17 +28,27 @@ This study validates this proxy in the Southeast Pacific (SEP) by comparing the 
 
 Affiliations:
 
-1. Lyell Centre, Heriot-Watt University, Edinburgh, UK
-2. ANID - Millennium Science Initiative Program Nucleo Milenio UPWELL, La Serena, Chile
-3. Japan Agency for Marine-Earth Science and Technology (JAMSTEC), Yokosuka, Japan
-4. MARUM - Center for Marine Environmental Sciences, University of Bremen, Germany
-5. PAGES - University of Bern, Switzerland
-6. Universidad Peruana Cayetano Heredia (UPCH), Lima, Perú
-7. J’EAI-CHARISMA, Colombia
-8. CIEAM - Centro de Investigación y Estudios Avanzados del Maule, Universidad Católica del Maule, Chile
-9. UMR EPOC, Université de Bordeaux, France
-10. Departamento de Geografía, Universidad de Chile, Santiago, Chile
-11. Université d'Angers, Nantes Université, Le Mans Université, CNRS, France
+<sup>1</sup> Lyell Centre, Heriot-Watt University, Edinburgh, UK
+
+<sup>2</sup> ANID - Millennium Science Initiative Program Nucleo Milenio UPWELL, La Serena, Chile
+
+<sup>3</sup> Japan Agency for Marine-Earth Science and Technology (JAMSTEC), Yokosuka, Japan
+
+<sup>4</sup> MARUM - Center for Marine Environmental Sciences, University of Bremen, Germany
+
+<sup>5</sup> PAGES - University of Bern, Switzerland
+
+<sup>6</sup> Universidad Peruana Cayetano Heredia (UPCH), Lima, Perú
+
+<sup>7</sup> J’EAI-CHARISMA, Colombia
+
+<sup>8</sup> CIEAM - Centro de Investigación y Estudios Avanzados del Maule, Universidad Católica del Maule, Chile
+
+<sup>9</sup> UMR EPOC, Université de Bordeaux, France
+
+<sup>10</sup> Departamento de Geografía, Universidad de Chile, Santiago, Chile
+
+<sup>11</sup> Université d'Angers, Nantes Université, Le Mans Université, CNRS, France
 
 ## Research's Data and Methods
 

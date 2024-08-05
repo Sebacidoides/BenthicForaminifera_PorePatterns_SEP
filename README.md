@@ -133,7 +133,7 @@ The repository is organized into the following folders:
 
 ## Usage
 
-### ImageJ Macros to measure pore patterns 
+### ImageJ Macros to Measure Pore Patterns 
 
 1. **Open ImageJ**.
 2. **Load the image** of the benthic foraminifera specimen you want to measure.

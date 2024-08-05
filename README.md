@@ -90,19 +90,29 @@ The repository is organized into the following folders:
     
   - `PoresSEP_75x50_x400.ijm`: Macro for measuring penultimate and antepenultimate chambers (PAC).
     
-    - Example images to run the PAC pore measurements:
+    - Images to run the PAC pore measurements:
       
-      - Umbilical PAC, *Cibicidoides wuellerstorfi* forma *plana* from sample GeoB7150-1: `28-11-22__0114.tif` (Penultimate chamber), `28-11-22__0115.tif` (Antepenultimate chamber)
+      - Umbilical PAC:
+          - *Cibicidoides wuellerstorfi* forma *plana* from sample GeoB7150-1:
+              - `28-11-22__0114.tif` (Penultimate chamber)
+              - `28-11-22__0115.tif` (Antepenultimate chamber)
         
-      - Spiral PAC, *Cibicidoides wuellerstorfi* forma *convexa* from sample GeoB7209-2: `30-11-22__0060.tif` (Penultimate chamber), `30-11-22__0061.tif` (Antepenultimate chamber)
+      - Spiral PAC:
+          - *Cibicidoides wuellerstorfi* forma *convexa* from sample GeoB7209-2:
+              - `30-11-22__0060.tif` (Penultimate chamber)
+              - `30-11-22__0061.tif` (Antepenultimate chamber)
             
   - `PoresSEP_x60.ijm`, `PoresSEP_x80.ijm`, `PoresSEP_x100.ijm`, `PoresSEP_x120.ijm`, `PoresSEP_x150.ijm`, `PoresSEP_x180.ijm`, `PoresSEP_x200.ijm`, `PoresSEP_x250.ijm`, `PoresSEP_x300.ijm`: Macros for measuring the entire umbilical and spiral sides at various magnifications (For more detail about this, see Appendix A of this article).
      
-    - Example images to run the entire umbilical and spiral side pore measurements:
+    - Images to run the entire umbilical and spiral side pore measurements:
       
-      - Umbilical side: `28-11-22__0038.tif` (*Cibicidoides wuellerstorfi* forma *plana* from sample GeoB7157-1), `28-11-22__0081.tif`(*Cibicidoides ungerianus* from sample GeoB7156-1)
+      - Umbilical side:
+          - `28-11-22__0038.tif` (*Cibicidoides wuellerstorfi* forma *plana* from sample GeoB7157-1)
+          - `28-11-22__0081.tif`(*Cibicidoides ungerianus* from sample GeoB7156-1)
         
-      - Spiral side: `28-09-22__0075.tif` (*Cibicidoides wuellerstorfi* forma *convexa* from sample GeoB7137-1), `28-09-22__0202.tif` (*Cibicidoides wuellerstorfi* forma *plana* from sample GeoB7115-1)
+      - Spiral side:
+          - `28-09-22__0075.tif` (*Cibicidoides wuellerstorfi* forma *convexa* from sample GeoB7137-1)
+          - `28-09-22__0202.tif` (*Cibicidoides wuellerstorfi* forma *plana* from sample GeoB7115-1)
           
 - **DataAnalysis**: Contains scripts and datasets used for statistical analysis of pore measurements and proxy calibration.
 

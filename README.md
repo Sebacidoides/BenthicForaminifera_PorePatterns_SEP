@@ -68,29 +68,43 @@ The repository is organized into the following folders:
 - **ImageJ-Scripts**: Contains Java macros for measuring pore patterns using ImageJ software.
   
   - **Requirements**: To run the scripts and use the macros provided in this repository, you will need the following software and packages installed:
+    
       - **ImageJ**: Download and install ImageJ from [imagej.net](https://imagej.net/software/imagej/).
+        
       - **Java**: Ensure you have Java installed, as ImageJ requires Java to run. You can download it from [java.com](https://www.java.com/).
     
   - `PoresSEP_75x50_x400.ijm`: Macro for measuring penultimate and antepenultimate chambers (PAC).
     
-  - `PoresSEP_x60.ijm`, `PoresSEP_x80.ijm`, `PoresSEP_x100.ijm`, `PoresSEP_x120.ijm`, `PoresSEP_x150.ijm`, `PoresSEP_x180.ijm`, `PoresSEP_x200.ijm`, `PoresSEP_x250.ijm`, `PoresSEP_x300.ijm`: Macros for measuring the entire umbilical and spiral sides at various magnifications (For more detail about this, see Appendix A of this article).
-    
-  - 'ImageX': 
-    
+    - Example images to run the PAC pore measurements:
       
+      - Umbilical PAC: `28-11-22__0114.tif` (Penultimate chamber), `28-11-22__0115.tif` (Antepenultimate chamber)
+        
+      - Spiral PAC: `30-11-22__0060.tif` (Penultimate chamber), `30-11-22__0061.tif` (Antepenultimate chamber)
+            
+  - `PoresSEP_x60.ijm`, `PoresSEP_x80.ijm`, `PoresSEP_x100.ijm`, `PoresSEP_x120.ijm`, `PoresSEP_x150.ijm`, `PoresSEP_x180.ijm`, `PoresSEP_x200.ijm`, `PoresSEP_x250.ijm`, `PoresSEP_x300.ijm`: Macros for measuring the entire umbilical and spiral sides at various magnifications (For more detail about this, see Appendix A of this article).
+     
+    - Example images to run the entire umbilical and spiral side pore measurements:
+      
+      - Umbilical side: `28-11-22__0038.tif`, `28-11-22__0081.tif`
+        
+      - Spiral side: `28-09-22__0075.tif`, `28-09-22__0202.tif`
+          
 - **DataAnalysis**: Contains scripts and datasets used for statistical analysis of pore measurements and proxy calibration.
 
   - **Requirements**: To run the scripts and use the macros provided in this repository, you will need the following software and packages installed:
+    
       - **Python**: Ensure you have Python 3.7 or later installed. You can download it from [anaconda.com](https://www.anaconda.com/download).
+        
       - **Python Packages**: Install the necessary packages using pip. You can do this by running the following command in your terminal:
+        
           ```sh
           pip install numpy pandas matplotlib statsmodels seaborn scikit-learn
           ```  
+
   - `PorePatternsSEP-Script.py`: Python script using numpy, pandas, matplotlib, statmodels, seaborn, and sklearn packages to perform Weighted Least Squares (WLS) regression and analyze pore patterns. This script includes functions for data cleaning, statistical analysis, and visualization.
     
   - `Dataset Pore Measurements Garrido et al..csv`: This is a dataset with pore measurements used as input for the analysis. This includes measurements of porosity, pore density, and pore size for various benthic foraminiferal species.
     
-
 
 ## Usage
 
@@ -124,12 +138,17 @@ The repository is organized into the following folders:
 
 ## Acknowledgements
 
-We thank the crew and scientific teams involved in various research expeditions, the GeoB Core Repository at MARUM, and the team at Université d'Angers for their invaluable assistance. Funding was provided by the National Agency for Research and Development (ANID), the German Federal Ministry of Education and Research, the FARGO project, and the ANID Millennium Science Initiative Program.
+We thank the crews and scientific teams of the research expeditions PG4, M92, SONNE 156, SONNE 161, and SONNE 211 expeditions, and the GeoB Core Repository at MARUM, University of Bremen (special thanks to Jürgen Titschack).
 
-## License
+We thank the teams at the Université d'Angers (Frans Jorissen, Marie Fouet, Christine Barras, Sophie Sanchez, Eleonora Fossile), Heriot-Watt University (Lilja Alam, Sarah Collet), and the British Geological Survey (Melanie Leng, Kotryna Savickaite). 
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+We also thank Laura Farias for the regional CTDO data (BIOSPE, FIP_2006, Galathea, Jamstec, and Samfloc).
+
+Sebastián Garrido acknowledges funding from the ANID Scholarship Program DOCTORADO BECAS CHILE 2019 / 72200463. 
+
+This study was supported by the FARGO project (MR/S034293/1 to BH) and ANID Millennium Science Initiative Program NCN19_153.
+
 
 ## Contact
 
-For any questions or further information, please contact Sebastián Garrido at [sag15@hw.ac.uk](mailto:sag15@hw.ac.uk).
+For any questions or further information, please contact Sebastián Garrido at [sag15@hw.ac.uk](mailto:sag15@hw.ac.uk) or [sebagarridomedina@gmail.com](mailto:sebagarridomedina@gmail.com).

@@ -119,7 +119,7 @@ The repository is organized into the following folders:
 
   - **Requirements**: To run the scripts and use the macros provided in this repository, you will need the following software and packages installed:
     
-      - **Python**: Ensure you have Python 3.7 or later installed. You can download it from [anaconda.com](https://www.anaconda.com/download).
+      - **Python**: Ensure you have installed Python 3.7 or later. You can download it from [anaconda.com](https://www.anaconda.com/download).
         
       - **Python Packages**: Install the necessary packages using pip. You can do this by running the following command in your terminal:
         
@@ -127,11 +127,19 @@ The repository is organized into the following folders:
           pip install numpy pandas matplotlib statsmodels seaborn scikit-learn
           ```  
 
-  - `PorePatternsSEP-Script.py`: Python script using numpy, pandas, matplotlib, statmodels, seaborn, and sklearn packages to perform Weighted Least Squares (WLS) regression and analyze pore patterns. This script includes functions for data cleaning, statistical analysis, and visualization.
+  - `PorePatternsSEP-Script.py`: Python script using numpy, pandas, matplotlib, statmodels, seaborn, and sklearn packages to perform Weighted Least Squares (WLS) regression and analyze pore patterns. This script includes functions for data cleaning, statistical analysis, and visualization. Details of how the code works are included at the beginning of the code within a Jupyter Notebook; click on the notebook, and you will find the instructions. 
     
-  - `Dataset Pore Measurements Garrido et al..csv`: This is a dataset with pore measurements used as input for the analysis. This includes measurements of porosity, pore density, and pore size for various benthic foraminiferal species.
+  - `Dataset Pore Measurements Garrido et al..csv`: This is a dataset with pore measurements used as input for the analysis. This dataset includes:
+ 
+      - **Location Data**: Site, Latitude, Longitude, Water depth
+      - **Foraminifera Collection**: Sample, Image, Cruise, Year
+      - **Porosity Measurements**: Average porosity, Std deviation, Threshold, Average number of pores, Std deviation of pore number, Average pore diameter, Std deviation of pore diameter, Average test area, Std deviation of test area
+      - **Specimen Measurements**: Size, Std deviation of size, Average pore density, Std deviation of pore density
+      - **Specimen Details**: Side, Chamber, SpecimenID, Morphotype (for C. wuellerstorfi), Species, Preservation status, Missing chambers (ventral/dorsal), Chambers in last whorl, Image pixel size, Image magnification, Staining status
+      - **Sediment Details**: Fraction, <sup>14</sup>C age, Error, Organic carbon, Carbonate content, Opal content, C/N ratio, Granulometry (mean, median, mode, StdDev, skewness, kurtosis, %Clay, %Silt, %Sand)
+      - **Bottom Water Environmental Parameters**: Oxygen, Temperature, Salinity, pH, Carbonate content, δ¹³C of DIC, Nitrate, Phosphate, Silica, Chlorophyll content, Primary productivity, El Niño/La Niña, PDO indices
+      - **Additional Information**: Age assigned, Comments (penultimate/antepenultimate details)
     
-
 ## Usage
 
 ### ImageJ Macros to Measure Pore Patterns 

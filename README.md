@@ -54,8 +54,13 @@ Affiliations:
 
 ### Regional Setting and Samples
 - The Southeast Pacific (SEP) features significant vertical, latitudinal, and longitudinal gradients in hydrological parameters (Silva et al., 2009, Paulmier and Ruiz-Pino, 2009).
-- Our samples were collected from the Southeast Pacific between 12°S and 44°S along the continental margin of Chile and Peru, at depths ranging from 24 to 3,252 m.
+- Our samples were collected from the Southeast Pacific between 12°S and 44°S along the continental margin of Chile and Peru, at depths ranging from 24 to 3,252 m (Figure 1).
 - Sampling methods included Multicorer, box-corer, Petersen grab, and gravity core through the cruises (SONNE 156, SONNE 211, SONNE 161, Meteor 92, USNS Eltanin, BIAC072014)
+
+<figure>
+  <img src="Figure 1.png" alt="Map" width="800">
+  <figcaption>Figure 1: Locations of the surface sediment samples used in this study. (a) Map showing the locations of the samples along the Chilean and Peruvian coasts. (b) Longitudinal  profile of the samples, illustrating their bottom water oxygen content (BWDO), samples cover BWDO from 3 to 245 µmol/kg. Main water masses of the SEP: STW = Subtropical Water, SAAW = Subantarctic Surface Water, ESSW = Equatorial Subsurface Water, AAIW = Antarctic Intermediate Water, PDW = Pacific Deep Water; the dotted gray line represents boundaries between water masses. Water masses distribution and characteristics from Reyes-Macaya et al. (2022).</figcaption>
+</figure>
 
 ### Specimen Selection and Imaging
 - Specimens were wet-sieved to > 63 µm, oven-dried, and Rose Bengal stained.

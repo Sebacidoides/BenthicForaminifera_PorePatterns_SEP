@@ -1,7 +1,5 @@
 # Benthic Foraminifera Pore Patterns in the Southeast Pacific
 
-A repository of "A species-specific approach to benthic foraminifera pore patterns as a paleoxygenation proxy in the Southeast Pacific" (Garrido et al., in review)
-
 ## Repository's Overview
 
 This repository contains data and scripts related to the article "A species-specific approach to benthic foraminifera pore patterns as a paleoxygenation proxy in the Southeast Pacific" by Garrido et al. (in review). The research focuses on the use of pore patterns in benthic foraminifera as proxies for past bottom water dissolved oxygen (BWDO) levels in the Southeast Pacific (SEP), providing insights into changes in ocean oxygenation conditions over the geological past. **First, here is an overview of our research to help you understand the goal and context of this repository.**

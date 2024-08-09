@@ -166,11 +166,13 @@ The repository is organized into the following folders:
 - Sebastián Garrido acknowledges funding from the ANID Scholarship Program DOCTORADO BECAS CHILE 2019 / 72200463. 
 - This study was supported by the FARGO project (MR/S034293/1 to BH) and ANID Millennium Science Initiative Program NCN19_153.
 
-## Declaration of generative AI and AI-assisted technologies in the writing process
+## Declaration of generative AI and AI-assisted technologies 
+
+### Declaration of generative AI and AI-assisted technologies in the writing process
 
 During the preparation of this work the author(s) used Grammarly and ChatGPT in order to improve language, grammar and readability. After using this tool/service, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the publication.  
 
-## Declaration of generative AI and AI-assisted technologies in the code preparation process
+### Declaration of generative AI and AI-assisted technologies in the code preparation process
 
 During the preparation of this work the author(s) used ChatGPT Model 4 and Model 4o in order to assist, check, and improve code writing. After using this tool/service, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the publication.  
 

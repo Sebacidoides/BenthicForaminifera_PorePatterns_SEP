@@ -166,10 +166,14 @@ The repository is organized into the following folders:
 - Sebastián Garrido acknowledges funding from the ANID Scholarship Program DOCTORADO BECAS CHILE 2019 / 72200463. 
 - This study was supported by the FARGO project (MR/S034293/1 to BH) and ANID Millennium Science Initiative Program NCN19_153.
 
+## Declaration of generative AI and AI-assisted technologies in the writing process
+During the preparation of this work the author(s) used Grammarly and ChatGPT in order to improve language, grammar and readability. After using this tool/service, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the publication.  
+
+## Declaration of generative AI and AI-assisted technologies in the code preparation process
+During the preparation of this work the author(s) used ChatGPT Model 4 and Model 4o in order to assist, check, and improve code writing. After using this tool/service, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the publication.  
+
 ## References
-
 Paulmier, A., Ruiz-Pino, D., 2009. Oxygen minimum zones (OMZs) in the modern ocean. Prog Oceanogr 80. https://doi.org/10.1016/j.pocean.2008.08.001
-
 Silva, N., Rojas, N., Fedele, A., 2009. Water masses in the Humboldt Current System: Properties, distribution, and the nitrate deficit as a chemical water mass tracer for Equatorial Subsurface Water off Chile. Deep Sea Research Part II: Topical Studies in Oceanography 56, 1004–1020. https://doi.org/10.1016/j.dsr2.2008.12.013
 
 ## Contact

@@ -1,6 +1,5 @@
 # Benthic Foraminifera Pore Patterns in the Southeast Pacific
-
-- Sebastián Garrido <sup>1,2</sup>
+Sebastián Garrido <sup>1,2</sup>
 
 ## Repository's Overview
 
